@@ -1,6 +1,6 @@
 # OpenAI Responses API Examples in Go
 
-This repository contains a collection of fully working Go examples demonstrating how to use the new [OpenAI Responses API](https://platform.openai.com/docs/guides/responses) with the official [openai-go SDK](https://github.com/openai/openai-go).
+This repository contains a collection of fully working Go examples demonstrating how to use the new [OpenAI Responses API](https://platform.openai.com/docs/api-reference/responses) with the official [openai-go SDK](https://github.com/openai/openai-go).
 
 Each directory contains a self-contained example that maps to a specific concept covered in the blog post:
 
@@ -52,7 +52,7 @@ go run main.go
 
 ## Related Reading
 
-- [OpenAI Responses API Overview](https://platform.openai.com/docs/guides/responses)
+- [OpenAI Responses API Overview](https://platform.openai.com/docs/api-reference/responses)
 - [Official OpenAI Go SDK](https://github.com/openai/openai-go)
 - [My blog post: Using the OpenAI Responses API with Go](https://chris.sotherden.io/openai-responses-api-using-go)
 

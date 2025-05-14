@@ -2,11 +2,13 @@ package main
 
 import (
 	"context"
+	"log"
+	"os"
+
+	_ "github.com/joho/godotenv/autoload"
 	"github.com/openai/openai-go"
 	"github.com/openai/openai-go/option"
 	"github.com/openai/openai-go/responses"
-	"log"
-	"os"
 )
 
 func main() {

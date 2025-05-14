@@ -4,6 +4,7 @@ go 1.23.4
 
 require (
 	github.com/invopop/jsonschema v0.13.0
+	github.com/joho/godotenv v1.5.1
 	github.com/openai/openai-go v0.1.0-beta.10
 )
 

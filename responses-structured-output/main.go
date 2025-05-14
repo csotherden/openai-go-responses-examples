@@ -3,12 +3,14 @@ package main
 import (
 	"context"
 	"encoding/json"
+	"log"
+	"os"
+
 	"github.com/invopop/jsonschema"
+	_ "github.com/joho/godotenv/autoload"
 	"github.com/openai/openai-go"
 	"github.com/openai/openai-go/option"
 	"github.com/openai/openai-go/responses"
-	"log"
-	"os"
 )
 
 func main() {
